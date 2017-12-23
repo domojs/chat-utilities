@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "npenin"
+  },
+  "bugs": {
+    "url": "https://github.com/domojs/chat-date/issues"
+  },
+  "dependencies": {
+    "@akala/server": "^1.0.73",
+    "@domojs/chat": "^1.0.14",
+    "@types/request": "^2.0.8",
+    "@types/ws": "^3.2.0",
+    "request": "^2.83.0",
+    "sugar": "^2.0.4"
+  },
+  "deprecated": false,
+  "description": "",
+  "devDependencies": {},
+  "homepage": "https://github.com/domojs/chat-date#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@domojs/chat-date",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domojs/chat-date.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "tsc -p src"
+  },
+  "typings": "dist/index.d.ts",
+  "version": "1.0.7"
+}
