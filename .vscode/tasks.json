@@ -5,18 +5,7 @@
     "tasks": [
         {
             "type": "typescript",
-<<<<<<< HEAD
             "tsconfig": "chat-date\\src\\tsconfig.json",
-=======
-            "tsconfig": "chat\\src\\tsconfig.json",
-            "problemMatcher": [
-                "$tsc"
-            ]
-        },
-        {
-            "type": "typescript",
-            "tsconfig": "chat\\src\\tsconfig.json",
->>>>>>> d2884e9a32ae50502c22e7b91a68b12d0848c16d
             "option": "watch",
             "problemMatcher": [
                 "$tsc-watch"

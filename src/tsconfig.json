@@ -1,11 +1,7 @@
 {
     "compileOnSave": true,
     "compilerOptions": {
-<<<<<<< HEAD
         "inlineSourceMap": true,
-=======
-        "sourceMap": true,
->>>>>>> d2884e9a32ae50502c22e7b91a68b12d0848c16d
         "experimentalDecorators": true,
         "declaration": true,
         "moduleResolution": "node",
