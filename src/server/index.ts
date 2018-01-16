@@ -1,8 +1,8 @@
 import * as akala from '@akala/server';
-import * as va from '@domojs/chat';
+import * as va from './language';
 import * as path from 'path';
 
-export * from './interpreter'
+export * from './language';
 
 akala.injectWithName(['$isModule'], function (isModule)
 {
