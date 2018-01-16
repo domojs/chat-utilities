@@ -28,24 +28,24 @@ function dateInterpreter(cmd: Context, next: (error?: any) => void, callback: (a
     relativeTimes = relativeTimes.concat(akala.map(akala.grep(Sugar.Date.getLocale()['modifiers'], function (item)
     {
         return text.indexOf(item.src, timeStart) >= 0;
-    }), function (item: { src: string }) { return <string>item.src; }));
+    }, true), function (item: { src: string }) { return <string>item.src; }));
     relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['months'], function (item: string)
     {
         return text.indexOf(item, timeStart) >= 0;
-    }));
+    }, true));
     relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['units'], function (item: string)
     {
         return text.indexOf(item, timeStart) >= 0;
-    }));
+    }, true));
 
     relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['weekdays'], function (item: string)
     {
         return text.indexOf(item, timeStart) >= 0;
-    }));
+    }, true));
     relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['tokens'], function (item: string)
     {
         return text.indexOf(item, timeStart) >= 0;
-    }));
+    }, true));
     if (text.indexOf(Sugar.Date.getLocale()['timeMarker'], timeStart) > -1)
         relativeTimes = relativeTimes.concat(Sugar.Date.getLocale()['timeMarker']);
 
