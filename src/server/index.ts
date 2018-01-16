@@ -6,7 +6,7 @@ export * from './interpreter'
 
 akala.injectWithName(['$isModule'], function (isModule)
 {
-    if (isModule)
+    if (isModule('@akala/chat-date'))
         akala.worker.createClient('chat').then((client) =>
         {
             va.meta.createServerProxy(client).register({ name: 'date', path: path.resolve(__dirname, './interpreter') });
