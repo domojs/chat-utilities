@@ -20,7 +20,7 @@
   "devDependencies": {},
   "homepage": "https://github.com/domojs/chat-utilities#readme",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/server/index.js",
   "name": "@domojs/chat-utilities",
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
-  "typings": "dist/index.d.ts",
+  "typings": "dist/server/index.d.ts",
   "version": "1.0.7",
   "snyk": true
 }
