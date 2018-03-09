@@ -13,8 +13,8 @@
     "@types/request": "^2.0.4",
     "@types/ws": "^3.2.0",
     "request": "^2.83.0",
-    "snyk": "^1.68.0",
-    "sugar": "^2.0.4"
+    "sugar": "^2.0.4",
+    "snyk": "^1.68.1"
   },
   "deprecated": false,
   "description": "",
@@ -33,7 +33,7 @@
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
-  "typings": "dist/index.d.ts",
+  "typings": "dist/server/index.d.ts",
   "version": "1.0.7",
   "snyk": true
 }
