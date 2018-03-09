@@ -10,10 +10,13 @@ akala.injectWithName(['$router'], function (router: akala.HttpRouter)
     akala.createServerFromMeta(chat.meta)(router, '/chat', {
         register: function (language: chat.Language)
         {
-            return akala.when(akala.map(interpreters, (connection) =>
+            return new Promise<void>((resolve, reject) =>
             {
-                return this.$proxy(connection).receive(language);
-            }));
+                akala.when(akala.map(interpreters, (connection) =>
+                {
+                    return this.$proxy(connection).receive(language);
+                })).then(function () { resolve(); }, reject);
+            });
         },
         registerAsInterpreter: function (dummy, connection: Connection)
         {
