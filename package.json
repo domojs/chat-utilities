@@ -3,29 +3,30 @@
     "name": "npenin"
   },
   "bugs": {
-    "url": "https://github.com/domojs/chat-utilities/issues"
+    "url": "https://github.com/domojs/chat/issues"
   },
   "dependencies": {
     "@akala/server": "^1.0.42",
     "@domojs/chat": "^1.0.0",
     "@domojs/chat-date": "^1.0.0",
-    "@types/jquery": "^3.2.18",
-    "@types/request": "^2.0.4",
-    "@types/ws": "^3.2.0",
     "request": "^2.83.0",
-    "snyk": "^1.68.0",
-    "sugar": "^2.0.4"
+    "sugar": "^2.0.4",
+    "snyk": "^1.68.1"
   },
   "deprecated": false,
   "description": "",
-  "devDependencies": {},
-  "homepage": "https://github.com/domojs/chat-utilities#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.3.1",
+    "@types/request": "^2.0.4",
+    "@types/ws": "^3.2.0"
+  },
+  "homepage": "https://github.com/domojs/chat#readme",
   "license": "MIT",
-  "main": "dist/server/index.js",
-  "name": "@domojs/chat-utilities",
+  "main": "dist/index.js",
+  "name": "@domojs/chat",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/domojs/chat-utilities.git"
+    "url": "git+https://github.com/domojs/chat.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
