@@ -52,7 +52,7 @@
     ws "^3.3.2"
     xml2js "^0.4.19"
 
-"@domojs/chat-date@^1.0.0":
+"@domojs/chat-date@^1.0.0", "@domojs/chat-date@^1.0.7":
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@domojs/chat-date/-/chat-date-1.0.7.tgz#1983f9c2d20bc2665ff479787c7338d24b4ed724"
   dependencies:
@@ -63,9 +63,9 @@
     request "^2.74.0"
     sugar "^2.0.4"
 
-"@domojs/chat@^1.0.0", "@domojs/chat@^1.0.5":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@domojs/chat/-/chat-1.0.15.tgz#62f9645d6b1c2b808f14e951efd430609ff84dcb"
+"@domojs/chat@^1.0.0", "@domojs/chat@^1.0.15", "@domojs/chat@^1.0.5":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@domojs/chat/-/chat-1.0.16.tgz#eb869265eafeeda49756108be1a3a32596b239c3"
   dependencies:
     "@akala/server" "^1.0.42"
     "@domojs/chat" "^1.0.0"

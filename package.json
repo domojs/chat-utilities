@@ -7,8 +7,8 @@
   },
   "dependencies": {
     "@akala/server": "^1.0.42",
-    "@domojs/chat": "^1.0.0",
-    "@domojs/chat-date": "^1.0.0",
+    "@domojs/chat": "^1.0.15",
+    "@domojs/chat-date": "^1.0.7",
     "request": "^2.83.0",
     "snyk": "^1.68.1",
     "sugar": "^2.0.4"
@@ -34,6 +34,6 @@
     "snyk-protect": "snyk protect"
   },
   "typings": "dist/server/index.d.ts",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "snyk": true
 }
