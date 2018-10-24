@@ -6,7 +6,7 @@
     "url": "https://github.com/domojs/chat/issues"
   },
   "dependencies": {
-    "@akala/server": "^1.0.42",
+    "@akala/server": "^2.1.1",
     "@domojs/chat": "^1.0.15",
     "@domojs/chat-date": "^1.0.7",
     "request": "^2.83.0",
