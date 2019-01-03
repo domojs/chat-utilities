@@ -9,7 +9,7 @@
     "@akala/server": "^1.0.42",
     "@domojs/chat": "^1.0.15",
     "@domojs/chat-date": "^1.0.7",
-    "request": "^2.83.0",
+    "request": "^2.82.0",
     "snyk": "^1.68.1",
     "sugar": "^2.0.4"
   },
