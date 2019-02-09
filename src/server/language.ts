@@ -5,12 +5,10 @@ import * as $ from 'underscore';
 // import * as eachAsync from 'each-async';
 import * as path from 'path';
 import * as akala from '@akala/server';
-import { Metadata, Proxy } from '@akala/server';
-import { Connection } from '@akala/json-rpc-ws';
 
 var log = debug('domojs:chat');
 
-export var meta = new akala.Metadata()
+export var meta = new akala.Api()
     .serverToClientOneWay<Language>()({ receive: true })
     .clientToServerOneWay<Language>()({ register: true, registerAsInterpreter: true })
 

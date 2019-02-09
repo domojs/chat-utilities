@@ -6,19 +6,20 @@
     "url": "https://github.com/domojs/chat/issues"
   },
   "dependencies": {
-    "@akala/server": "^1.0.42",
-    "@domojs/chat": "^1.0.15",
-    "@domojs/chat-date": "^1.0.7",
-    "request": "^2.83.0",
-    "snyk": "^1.68.1",
-    "sugar": "^2.0.4"
+    "@akala/server": "^2.1.12",
+    "@domojs/chat": "^1.0.23",
+    "@domojs/chat-date": "^1.0.11",
+    "request": "^2.88.0",
+    "snyk": "^1.126.0",
+    "sugar": "^2.0.6"
   },
   "deprecated": false,
   "description": "",
   "devDependencies": {
-    "@types/jquery": "^3.3.1",
-    "@types/request": "^2.0.4",
-    "@types/ws": "^3.2.0"
+    "@types/debug": "^4.1.0",
+    "@types/jquery": "^3.3.29",
+    "@types/request": "^2.48.1",
+    "@types/ws": "^6.0.1"
   },
   "homepage": "https://github.com/domojs/chat#readme",
   "license": "MIT",

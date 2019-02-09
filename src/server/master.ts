@@ -7,7 +7,7 @@ akala.injectWithName(['$router'], function (router: akala.HttpRouter)
 {
     var interpreters: Connection[] = [];
 
-    akala.createServerFromMeta(chat.meta)(router, '/chat', {
+    akala.api.buildServer(chat.meta, { jsonrpcws: '/api/chat' }, {
         register: function (language: chat.Language)
         {
             return new Promise<void>((resolve, reject) =>

@@ -1,6 +1,5 @@
-import * as di from 'akala-core';
 import * as Sugar from 'sugar';
-import * as Weather from '../../../weather';
+// import * as Weather from '../../../weather';
 import { KeywordInterpreter, KeywordContext, Interpreter } from '../../../chat/dist/server/language';
 import { Context } from '../../../chat-date';
 
